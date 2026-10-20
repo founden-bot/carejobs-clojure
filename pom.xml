@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.clojars.carejobs</groupId>
+  <artifactId>carejobs</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+  <name>carejobs</name>
+  <description>Clojure client for the free CareJobs.Now US healthcare jobs API: search open jobs, posted hourly pay, employers and states. No API key.</description>
+  <url>https://github.com/founden-bot/carejobs-clojure</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>O-mega Enterprise, Inc.</name>
+      <email>hello@carejobs.now</email>
+      <url>https://carejobs.now</url>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/founden-bot/carejobs-clojure</url>
+    <connection>scm:git:git://github.com/founden-bot/carejobs-clojure.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/founden-bot/carejobs-clojure.git</developerConnection>
+    <tag>v1.0.0</tag>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.12.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>data.json</artifactId>
+      <version>2.5.2</version>
+    </dependency>
+  </dependencies>
+</project>

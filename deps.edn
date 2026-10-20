@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.12.6"}
+        org.clojure/data.json {:mvn/version "2.5.2"}}
+ :aliases
+ {:test {:extra-paths ["test"]
+         :main-opts ["-e" "(require 'carejobs.core-test) (let [r (clojure.test/run-tests 'carejobs.core-test)] (System/exit (if (zero? (+ (:fail r) (:error r))) 0 1)))"]}}}
